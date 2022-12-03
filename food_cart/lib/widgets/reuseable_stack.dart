@@ -19,10 +19,15 @@ class ReuseableStack extends StatelessWidget {
             color: color,
             borderRadius: BorderRadius.circular(15),
           ),
-          height: 300,
-          width: 200,
+          height: 250,
+          width: 150,
         ),
-        Positioned(top: 75, right: -15, child: Image.asset(imgString))
+        Positioned(
+            top: 50,
+            right: -15,
+            child: Image.asset(
+              imgString,
+            ))
       ],
     );
   }

@@ -17,7 +17,7 @@ class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white10,
+      backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.white,
@@ -62,7 +62,7 @@ class _ProfilePageState extends State<ProfilePage> {
         ],
       ),
       body: Padding(
-        padding: const EdgeInsets.all(15.0),
+        padding: const EdgeInsets.all(10.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -76,7 +76,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   'Joey! 👋',
                   style: TextStyle(
                       color: Colors.black,
-                      fontSize: 32,
+                      fontSize: 25,
                       fontWeight: FontWeight.bold),
                 ),
               ],

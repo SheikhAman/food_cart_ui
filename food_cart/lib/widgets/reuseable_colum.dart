@@ -11,11 +11,12 @@ class ReuseableColumn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Padding(
       padding: const EdgeInsets.only(top: 8.0, left: 8.0),
       child: Container(
         height: 100,
-        width: 80,
+        width: size.width * 0.2,
         decoration: BoxDecoration(
           color: color,
           borderRadius: BorderRadius.circular(10),
